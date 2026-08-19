@@ -12,4 +12,4 @@ This node continuously records the front yard and uploads 5-minute clips to the 
 
 - Resolution / FPS / Bitrate controlled by MediaMTX rpiCamera options
 - `recordSegmentDuration: 5m`
-- `runOnRecordSegmentComplete: /home/matt/upload_to_pi5.sh`
+- `runOnRecordSegmentComplete: /home/YOUR_USERNAME/upload_to_pi5.sh`
