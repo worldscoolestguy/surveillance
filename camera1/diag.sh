@@ -79,11 +79,11 @@ ip -brief addr show
 echo "Routing table:"
 ip route
 echo ""
-echo "Ping Pi 5 (10.0.0.23):"
-ping -c 3 -W 2 10.0.0.23 2>&1 || echo "Cannot reach Pi 5"
+echo "Ping Pi 5 (YOUR_PI5_IP):"
+ping -c 3 -W 2 YOUR_PI5_IP 2>&1 || echo "Cannot reach Pi 5"
 echo ""
-echo "Ping Jetson (10.0.1.69):"
-ping -c 3 -W 2 10.0.1.69 2>&1 || echo "Cannot reach Jetson"
+echo "Ping Jetson (YOUR_JETSON_IP):"
+ping -c 3 -W 2 YOUR_JETSON_IP 2>&1 || echo "Cannot reach Jetson"
 echo ""
 
 echo "=== AI SOFTWARE (for reference) ==="
