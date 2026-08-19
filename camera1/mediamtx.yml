@@ -5,6 +5,6 @@ paths:
     rpiCameraFPS: 15
     rpiCameraBitrate: 8000000
     record: yes
-    recordPath: /home/matt/videos/%path/%Y-%m-%d_%H-%M-%S
+    recordPath: /home/YOUR_USERNAME/videos/%path/%Y-%m-%d_%H-%M-%S
     recordSegmentDuration: 5m
-    runOnRecordSegmentComplete: /home/matt/upload_to_pi5.sh
+    runOnRecordSegmentComplete: /home/YOUR_USERNAME/upload_to_pi5.sh
